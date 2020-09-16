@@ -18,7 +18,7 @@ Eine Windkraftanlage erzeugt Daten zur Stromerzeugung und deren Umgebungsbedingu
 
 Entwickeln Sie einen Simulator der die Daten der Windkraftanlage generiert. Es ist dabei zu achten, dass die Daten realistisch sind und im Zusammenhang mit einer entsprechenden Einheit erzeugt werden.  
 
-Entwickeln Sie schrittweise eine REST Schnittstelle am Parkrechner. Die Daten der Windkraftanalage sollen ueber einer REST Schnittstelle veroeffentlicht werden. Die Schnittstelle verwendet standardmaessig das JSON Format und kann optional auf XML umgestellt werden. Wenn Sie die Uebung GK733 noch nicht umgesetzt haben, dann arbeiten Sie in dieser Aufgabenstellung mit statischen Daten einer Windkraftanlage.
+Die Daten der Windkraftanalage sollen ueber einer REST Schnittstelle veroeffentlicht werden. Die Schnittstelle verwendet standardmaessig das JSON Format und kann optional auf XML umgestellt werden.
 
 Die Schnittstelle soll mit einer einfachen Applikation getestet werden. Dabei sollen die Daten mit Hilfe von HTML und JQuery "konsumiert" und in einer Tabelle dargestellt werden.
 
