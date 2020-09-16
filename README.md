@@ -3,7 +3,7 @@ Join GIT repository: 
 
 ## Einfuehrung
 
-Die gesammelten Daten am Parkrechner sollen in einer standardisierten Form zur weiteren Verarbeitung zur Verfügung gestellt werden. Das Format der Darstellung kann je nach Zielsystem variieren und soll die Datenformate JSON und XML anbieten.
+Eine Windkraftanlage erzeugt Daten über die Stromerzeugung und den Umgebungsbedingungen in regelmaessigen Zeitabstaenden. Die gesammelten Daten am Parkrechner sollen in einer standardisierten Form zur weiteren Verarbeitung zur Verfügung gestellt werden. Das Format der Darstellung kann je nach Zielsystem variieren und soll die Datenformate JSON und XML anbieten.
 
 ## Voraussetzungen
 
@@ -16,6 +16,8 @@ Die gesammelten Daten am Parkrechner sollen in einer standardisierten Form zur w
 
 ## Aufgabenstellung
 
+Entwickeln Sie einen Simulator der die Daten der Windkraftanlage generiert. Es ist dabei zu achten, dass die Daten realistisch sind und im Zusammenhang mit einer entsprechenden Einheit erzeugt werden.  
+
 Entwickeln Sie schrittweise eine REST Schnittstelle am Parkrechner. Die Daten der Windkraftanalage sollen ueber einer REST Schnittstelle veroeffentlicht werden. Die Schnittstelle verwendet standardmaessig das JSON Format und kann optional auf XML umgestellt werden. Wenn Sie die Uebung GK733 noch nicht umgesetzt haben, dann arbeiten Sie in dieser Aufgabenstellung mit statischen Daten einer Windkraftanlage.
 
 Die Schnittstelle soll mit einer einfachen Applikation getestet werden. Dabei sollen die Daten mit Hilfe von HTML und JQuery "konsumiert" und in einer Tabelle dargestellt werden.
@@ -26,9 +28,8 @@ Die Daten sollen vor einem nicht autorisierten Zugriff geschützt werden. Entwer
 
 ## Aufbau der Applikation
 
-*   Optional:
-    - Collect data from windengines (message queue)
-    - Implement REST Inteface with static demo data
+*   Data acquisition at the windengine
+*   Implement REST Inteface 
 *   Controller receive HTTP requests
 *   Service contains business logic
 *   Controller publish windengine data requested by client
@@ -68,6 +69,7 @@ Gruppengroesse: 1 Person 
 
 **Anforderungen "ueberwiegend erfuellt"**
 
+*   Implementierung eines Generator zur Erzeugung der Winddaten
 *   Implementation der REST Schnittstelle
 *   Daten im JSON und XML Format zur Verfuegung stellen
 *   Implementation eines "Consumer" und Darstellung der Daten in einer Tabelle
