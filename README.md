@@ -53,9 +53,6 @@ Die Daten sollen vor einem nicht autorisierten Zugriff geschützt werden. Entwer
 * Spring Initializr
 [https://start.spring.io/](https://start.spring.io/)
 
-* Understanding REST
-[https://spring.io/understanding/REST](https://spring.io/understanding/REST)
-
 * Building a RESTful Web Service
 [https://spring.io/guides/gs/rest-service/](https://spring.io/guides/gs/rest-service/)
 
