@@ -3,7 +3,7 @@ Join GIT repository: 
 
 ## Einfuehrung
 
-Eine Windkraftanlage erzeugt Daten zur Stromerzeugung und deren Umgebungsbedingungen in regelmaessigen Zeitabstaenden. Die gesammelten Daten am Parkrechner sollen in einer standardisierten Form zur weiteren Verarbeitung zur Verfügung gestellt werden. Das Format der Darstellung kann je nach Zielsystem variieren und soll die Datenformate JSON und XML anbieten.
+Eine Windkraftanlage erzeugt Daten zur Stromerzeugung und deren Umgebungsbedingungen in regelmaessigen Zeitabstaenden. Die gesammelten Daten der Windkraftanlage sollen in einer standardisierten Form zur weiteren Verarbeitung zur Verfügung gestellt werden. Das Format der Darstellung kann je nach Zielsystem variieren und soll die Datenformate JSON und XML anbieten.
 
 ## Voraussetzungen
 
